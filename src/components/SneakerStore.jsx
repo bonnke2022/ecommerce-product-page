@@ -15,7 +15,7 @@ const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-top: 1rem;
-  gap: 3rem;
+  gap: 4rem;
   overflow-y: hidden;
   min-height: 80vh;
   @media screen and (max-width: 800px) {

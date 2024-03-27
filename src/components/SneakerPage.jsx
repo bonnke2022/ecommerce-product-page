@@ -30,7 +30,7 @@ const SneakerPage = () => {
   };
   return (
     <Wrapper className="sneaker-store ff-kumbh fs-160 fw-400">
-      <h4 className="text-orange uppercase fw-700">sneaker company</h4>
+      <h2 className="text-orange uppercase fw-700">sneaker company</h2>
       <h1 className="text-black capitalize fw-700">
         fall limited edition <br />
         sneakers

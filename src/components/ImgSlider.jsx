@@ -50,12 +50,12 @@ const Wrapper = styled.div`
   justify-content: center;
   gap: 2rem;
   .img-product {
-    width: 580px;
+    width: 480px;
     border-radius: 0.8rem;
     cursor: pointer;
   }
   .thumbnails {
-    width: 600px;
+    width: 480px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
