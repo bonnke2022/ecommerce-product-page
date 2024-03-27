@@ -46,42 +46,31 @@ const ImgSlider = () => {
 const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 2rem;
   .img-product {
+    width: 580px;
     border-radius: 0.8rem;
     cursor: pointer;
   }
   .thumbnails {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
-    width: 100%;
+    place-content: center;
+    place-items: center;
   }
   .img-thumbnail {
-    width: 22%;
     border-radius: 0.5rem;
+    width: clamp(85%, 5vw, 100%);
   }
   .img-thumbnail:hover,
   .img-thumbnail:active {
     border: 3px solid var(--Orange);
-    border-radius: 0.5rem;
     opacity: 0.7;
     cursor: pointer;
-  }
-  @media screen and (min-width: 800px) {
-    .img-product {
-      width: 100%;
-    }
-  }
-  @media screen and (min-width: 1100px) {
-    .img-product {
-      width: 500px;
-      margin-left: 0;
-    }
-    .img-thumbnail {
-      width: 112px;
-    }
   }
 `;
 

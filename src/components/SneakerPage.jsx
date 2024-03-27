@@ -61,11 +61,7 @@ const SneakerPage = () => {
       })}
       <div className="btn-cart-count">
         <div className="btn-container">
-          <button
-            type="button"
-            className="icon-btn minus-btn"
-            onClick={handleMinus}
-          >
+          <button className="icon-btn minus-btn" onClick={handleMinus}>
             <img src={iconMinus} alt="icon-minus" onClick={handleMinus} />
           </button>
           <p className="text-black fw-700">{amount}</p>
@@ -73,11 +69,7 @@ const SneakerPage = () => {
             <img src={iconPlus} alt="icon-plus" onClick={handlePlus} />
           </button>
         </div>
-        <button
-          type="button"
-          className="add-btn text-white btn"
-          onClick={handleCart}
-        >
+        <button className="add-btn text-white btn" onClick={handleCart}>
           <img
             src={iconCart}
             alt="icon-cart"
