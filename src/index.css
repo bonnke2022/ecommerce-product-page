@@ -108,8 +108,7 @@ h5 {
   font-weight: var(--fw-700);
 }
 body {
-  min-height: 90vh;
-  overflow: hidden;
+  min-height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
